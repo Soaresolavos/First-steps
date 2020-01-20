@@ -20,4 +20,22 @@ main {
 .cards {
     background-color: rgb(47, 198, 33);
     min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-color: rgb(227, 58,137);
+    min-height: 300px;
+    width: 30%;
+
+}.card2 {
+    background-color: rgb(240, 11,118);
+    min-height: 300px;
+    width: 30%;
+
+}.card3 {
+    background-color: rgb(125, 22,70);
+    min-height: 300px;
+    width: 30%;
 }
