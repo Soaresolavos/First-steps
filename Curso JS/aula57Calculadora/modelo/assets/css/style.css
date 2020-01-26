@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+    --primary-color: rgb(185, 233, 230);
+    --primary-color-darker: rgb(124, 163, 163);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background:  var(--primary-color);
+    font-family: 'open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.calculadora {
+    width: 400px;
+    height: 400px;
+   
+}
+
+.display {
+    font-size: 2em;
+    width: 600px;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    border: none;
+    background: rgb(228, 243, 248);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background:rgb(178, 228, 197);
+}
+
+.btn-eq {
+    background: rgb(158, 177, 206);    
+}
+
+.btn-eq:hover {
+    background: rgb(6, 148, 77);    
+}
