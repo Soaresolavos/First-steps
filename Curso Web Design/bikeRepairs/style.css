@@ -1,15 +1,25 @@
+body {
+    background-color: #FC5E55;
+}
 .container {
     width: 1024px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #FC5E55;
 }
 
 header {
-    background-color: rgb(41, 96, 36);
-    min-height: 100px;
+    background-color: #FC5E55;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
+
+
 
 main {
    
@@ -19,7 +29,7 @@ main {
 }
 
 .cards {
-    background-color: rgb(47, 198, 33);
+    background-color:#FC5E55;
     min-height: 300px;
     display: flex;
     justify-content: space-between;
