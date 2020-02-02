@@ -8,5 +8,5 @@
 const max = (x, y) => x > y ? x : y;
 
 
-console.log(max(6, 20));
+console.log(max(60, 20));
 

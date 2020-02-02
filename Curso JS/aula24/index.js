@@ -10,19 +10,19 @@ Entre 18 - 23 - Boa noite
 //Podemos usar condições sem else if, utilizando apenas if e else
 //=================================================
 
-const hora = 17;
+// const hora = 17;
 
-if (hora >0 && hora <= 11) {
-    console.log('Bom dia!');
-} else if (hora >= 12 && hora <= 17) {
-    console.log('Boa tarde!');
-} else if (hora >= 18 && hora <=23) { 
-    console.log('Boa noite!');
-} else {
-     console.log('Ops! Isso não é um horario!');
-}
+// if (hora >0 && hora <= 11) {
+//     console.log('Bom dia!');
+// } else if (hora >= 12 && hora <= 17) {
+//     console.log('Boa tarde!');
+// } else if (hora >= 18 && hora <=23) { 
+//     console.log('Boa noite!');
+// } else {
+//      console.log('Ops! Isso não é um horario!');
+// }
 
-const tenhoGrana = null;
+const tenhoGrana = false;
 if (tenhoGrana){
     console.log('Vou sair de casa!');
 } else {

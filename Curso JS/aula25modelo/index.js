@@ -2,7 +2,7 @@
 // IF: Se (numero >= 0 && numero <= 5) ocorrer, faça isso {código}
 // ELSE: Senão faça isso {código}
 
-const numero = 12;
+const numero = 7;
 
 if (numero <= 10){
     console.log('The number is less or equal to 10');    

@@ -19,7 +19,7 @@ form.addEventListener('submit', function (e) {
 
   if (!height) {
     setResult('Invalid height!', false);
-    return
+    return;
   }
 
   const imc = getImc(weight, height);

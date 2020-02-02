@@ -27,8 +27,8 @@
 // console.log(raiz(36));
 // console.log(raiz(49));
 
-const raiz = n => n**0.5;
+// const raiz = n => n**0.5;
 
-console.log(raiz(64));
-console.log(raiz(81));
-console.log(raiz(100));
+// console.log(raiz(64));
+// console.log(raiz(81));
+// console.log(raiz(100));
