@@ -2,7 +2,7 @@
 
 body {
     background-image: linear-gradient(rgba(252, 93, 85) , rgba(250, 64, 132, 0.5));
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: 'Roboto', sans-serif;    
     color: white;
 }
 .container {
@@ -68,5 +68,6 @@ main {
 
 h1 {
     font-size: 80px;
-    color: rgba(250, 64, 132);
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
 }
