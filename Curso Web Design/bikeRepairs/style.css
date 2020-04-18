@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(rgba(252, 93, 85) , rgba(250, 64, 132, 0.5));
     font-family: 'Roboto', sans-serif;    
     color: white;
+    font-size: 1.125rem;
 }
 .container {
     width: 1024px;
@@ -38,36 +39,78 @@ main {
     min-height: 300px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+
 }
 
 .card1 {
-    background-color: rgb(227, 58,137);
-    min-height: 300px;
+    background-image: url(images/image-background-card1-b.jpg);
+    background-size: cover;
+    background-position: bottom;
     width: 30%;
+    
 
 }.card2 {
-    background-color: rgb(240, 11,118);
-    min-height: 300px;
+    background-image: url(images/image-background-card2-b.jpg);
+    background-size: cover;
+    background-position: bottom;
     width: 30%;
 
 }.card3 {
-    background-color: rgb(125, 22,70);
-    min-height: 300px;
+    background-image: url(images/image-background-card3-b.jpg);
+    background-size: cover;
+    background-position: bottom;
     width: 30%;
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
 }
 
 .herobox1 {
     flex: 2;
+    padding-right: 100px;
     
 }
 
 .herobox2 {
    flex: 1;
+   
     
 }
 
 h1 {
-    font-size: 80px;
-    color: rgb(255, 255, 255);
+    font-size: 5rem;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.cards p{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top:10px;
+}
+
+.cards i {
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
 }
