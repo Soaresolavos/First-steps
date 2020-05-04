@@ -1,4 +1,3 @@
-
 const todosBotoes = document.querySelectorAll(".drum").length;
 
 for (let i = 0; i < todosBotoes; i++) {
