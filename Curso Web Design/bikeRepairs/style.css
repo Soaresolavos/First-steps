@@ -27,6 +27,7 @@ header {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
 
 }
 
@@ -155,3 +156,19 @@ p {
     border-radius: 10px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250);
 } 
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}

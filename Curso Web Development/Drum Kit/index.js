@@ -4,12 +4,14 @@ for (let i = 0; i < todosBotoes; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         let botaoInnerHtml = this.innerHTML;
         makeSound(botaoInnerHtml);
+        buttonAnimation(botaoInnerHtml);
 
     });
 }
 
-document.addEventListener("keydown", function(event){
+document.addEventListener("keypress", function(event){
    makeSound(event.key);
+   buttonAnimation(event.key);
 });
 
 function makeSound(key) {
@@ -49,6 +51,15 @@ function makeSound(key) {
             kick.play();
             break;
 
-        default: console.log(botaoInnerHtml)
+        default: console.log(key);
     }
+}
+
+function buttonAnimation(currentKey) {
+    let activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+
+    setTimeout(function() {
+        activeButton.classList.remove("pressed");
+    }, 100);
 }
