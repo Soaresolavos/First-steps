@@ -142,6 +142,11 @@ p {
     
 }
 
+.mybutton:hover {
+    background-color: rgb(145, 145, 145);
+    transition-duration: 1s;
+}
+
 
 
 .navbutton {
@@ -161,7 +166,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .tbox {
@@ -170,5 +175,9 @@ p {
     border: 1px solid white;
     box-sizing: border-box;
     margin-top: 50px;
+}
 
+.tbox :last-child {
+    font-size: 0.8rem;
+    padding-left: 30px;
 }
