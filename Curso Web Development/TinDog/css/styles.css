@@ -17,6 +17,11 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: "montserrat";
+  font-weight: bold;  
+}
+
 /* navigation bar */
 
 .navbar {
@@ -49,4 +54,26 @@ h1 {
 .img {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* features section  */
+
+
+#features {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.icon {
+    color: #ef8172;
+    padding: 2rem;         
+  }
+
+.icon:hover {
+  color: #ff4c68;
+}  
+
+
+p {
+  color: gray;
 }
