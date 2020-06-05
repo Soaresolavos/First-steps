@@ -4,6 +4,7 @@ body {
 
 .container-fluid {
   padding: 3% 15%;
+  
 }
 
 #title {
@@ -17,6 +18,12 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "montserrat";
+  font-weight: bold;
+  color: #fff;
+}
+
 h3 {
   font-family: "montserrat";
   font-weight: bold;  
@@ -28,7 +35,17 @@ h3 {
   padding: 0 0 2.5rem;
 }
 
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+
 .navbar-brand {
+  
   font-family: "ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
@@ -75,5 +92,33 @@ h3 {
 
 
 p {
-  color: gray;
+  color: rgb(36, 36, 36);
+  
+}
+
+/* testimonials section  */
+#testimonials {  
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.imgTestimonial {
+  border-radius: 100%;
+  width: 15%;
+  margin: 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+  text-align: center;  
+}
+
+.imgPress {
+  width: 15%;
+  margin: 10px 15px;
 }
